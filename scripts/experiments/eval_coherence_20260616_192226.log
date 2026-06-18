@@ -1,0 +1,1642 @@
+
+==================================================
+Iniciando evaluación Fold 1 de 10
+Tamaño del set de validación: 17
+==================================================
+Evaluating:   0%|          | 0/17 [00:00<?, ?it/s]Stories ids: tensor([9])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences:
+- 'The new apartment.' !Important:The new apartment.
+- 'She said she Would help him Fill Out His Rental Application For Free.'
+...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:   6%|5         | 1/17 [02:31<40:29, 151.87s/it]Stories ids: tensor([56])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+**************************************************
+Warning: Score is None para Story ID 56. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  12%|#1        | 2/17 [02:48<18:00, 72.04s/it] Stories ids: tensor([59])
+**************************************************
+Warning: Score is None para Story ID 59. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  18%|#7        | 3/17 [03:15<12:01, 51.54s/it]Stories ids: tensor([86])
+**************************************************
+Warning: Score is None para Story ID 86. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  24%|##3       | 4/17 [03:16<06:52, 31.74s/it]Stories ids: tensor([118])
+**************************************************
+Warning: Score is None para Story ID 118. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  29%|##9       | 5/17 [03:20<04:18, 21.55s/it]Stories ids: tensor([188])
+**************************************************
+Warning: Score is None para Story ID 188. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences: No problematic sentences
+## Score: 1...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  35%|###5      | 6/17 [03:57<04:57, 27.04s/it]Stories ids: tensor([198])
+**************************************************
+Warning: Score is None para Story ID 198. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  41%|####1     | 7/17 [04:03<03:19, 19.96s/it]Stories ids: tensor([238])
+**************************************************
+Warning: Score is None para Story ID 238. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  47%|####7     | 8/17 [04:06<02:12, 14.75s/it]Stories ids: tensor([282])
+**************************************************
+Warning: Score is None para Story ID 282. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  53%|#####2    | 9/17 [04:13<01:38, 12.28s/it]Stories ids: tensor([292])
+**************************************************
+Warning: Score is None para Story ID 292. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  59%|#####8    | 10/17 [10:32<14:37, 125.38s/it]Stories ids: tensor([299])
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences:
+- "And she always meant it in a good wayâĢĶas if those terms made everything more confusing for me." !Important: This sentence must be unique!
+	- Reason: The new sentence dis...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  65%|######4   | 11/17 [11:18<10:07, 101.26s/it]Stories ids: tensor([367])
+**************************************************
+Warning: Score is None para Story ID 367. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  71%|#######   | 12/17 [11:19<05:53, 70.70s/it] Stories ids: tensor([386])
+**************************************************
+Warning: Score is None para Story ID 386. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  76%|#######6  | 13/17 [17:36<10:53, 163.33s/it]Stories ids: tensor([415])
+**************************************************
+Warning: Score is None para Story ID 415. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences: No problematic sentences
+...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  82%|########2 | 14/17 [17:43<05:48, 116.25s/it]Stories ids: tensor([423])
+Y_true: 1
+Y_pred: 1
+Problematic section found:
+2. Problematic sentences: No problematic sentences
+...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  88%|########8 | 15/17 [20:11<04:11, 125.72s/it]Stories ids: tensor([424])
+**************************************************
+Warning: Score is None para Story ID 424. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  94%|#########4| 16/17 [20:31<01:34, 94.03s/it] Stories ids: tensor([441])
+**************************************************
+Warning: Score is None para Story ID 441. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating: 100%|##########| 17/17 [20:40<00:00, 68.58s/it]Evaluating: 100%|##########| 17/17 [20:40<00:00, 73.00s/it]
+Parse failures: 14/17 (82.4%) -> IDs: [56, 59, 86, 118, 188, 198, 238, 282, 292, 367, 386, 415, 424, 441]
+Y_true: [0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0]
+Y_pred: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+Resultados Fold 1:
+              precision    recall  f1-score   support
+
+           0       0.56      1.00      0.72         9
+           1       1.00      0.12      0.22         8
+
+    accuracy                           0.59        17
+   macro avg       0.78      0.56      0.47        17
+weighted avg       0.77      0.59      0.49        17
+
+
+==================================================
+Iniciando evaluación Fold 2 de 10
+Tamaño del set de validación: 17
+==================================================
+Evaluating:   0%|          | 0/17 [00:00<?, ?it/s]Stories ids: tensor([31])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+**************************************************
+Warning: Score is None para Story ID 31. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:   6%|5         | 1/17 [00:18<05:02, 18.93s/it]Stories ids: tensor([36])
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  12%|#1        | 2/17 [00:30<03:43, 14.89s/it]Stories ids: tensor([43])
+**************************************************
+Warning: Score is None para Story ID 43. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  18%|#7        | 3/17 [00:42<03:06, 13.32s/it]Stories ids: tensor([77])
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  24%|##3       | 4/17 [02:07<08:58, 41.45s/it]Stories ids: tensor([128])
+**************************************************
+Warning: Score is None para Story ID 128. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  29%|##9       | 5/17 [02:11<05:36, 28.08s/it]Stories ids: tensor([142])
+**************************************************
+Warning: Score is None para Story ID 142. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  35%|###5      | 6/17 [02:14<03:33, 19.43s/it]Stories ids: tensor([180])
+**************************************************
+Warning: Score is None para Story ID 180. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  41%|####1     | 7/17 [02:57<04:33, 27.33s/it]Stories ids: tensor([213])
+**************************************************
+Warning: Score is None para Story ID 213. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  47%|####7     | 8/17 [03:25<04:08, 27.61s/it]Stories ids: tensor([225])
+**************************************************
+Warning: Score is None para Story ID 225. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  53%|#####2    | 9/17 [03:36<02:59, 22.38s/it]Stories ids: tensor([278])
+**************************************************
+Warning: Score is None para Story ID 278. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences:
+	-The sentence 'It was evening when I called on The Expensive Mechanic.' doesn't make sense <r1>, discusses an entity which has not been introduced yet <r2>, and relates to p...
+
+=== USING NEW FORMAT ===
+Found 1 sentence lines
+Sentence 1: 'It was evening when I called on The Expensive Mechanic.'
+Full description: 'doesn't make sense <r1>, discusses an entity which has not been introduced yet <r2>, and relates to ...'
+Tags found: []
+No tags found for this sentence
+--------------------------------------------------
+Evaluating:  59%|#####8    | 10/17 [04:14<03:10, 27.17s/it]Stories ids: tensor([289])
+Y_true: 0
+Y_pred: 1
+No problematic section found
+Evaluating:  65%|######4   | 11/17 [05:41<04:32, 45.45s/it]Stories ids: tensor([317])
+**************************************************
+Warning: Score is None para Story ID 317. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  71%|#######   | 12/17 [05:55<02:59, 35.94s/it]Stories ids: tensor([335])
+**************************************************
+Warning: Score is None para Story ID 335. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  76%|#######6  | 13/17 [05:59<01:44, 26.11s/it]Stories ids: tensor([406])
+Y_true: 1
+Y_pred: 1
+No problematic section found
+Evaluating:  82%|########2 | 14/17 [06:02<00:57, 19.28s/it]Stories ids: tensor([426])
+**************************************************
+Warning: Score is None para Story ID 426. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  88%|########8 | 15/17 [06:22<00:39, 19.54s/it]Stories ids: tensor([466])
+Y_true: 1
+Y_pred: 1
+No problematic section found
+Evaluating:  94%|#########4| 16/17 [06:28<00:15, 15.38s/it]Stories ids: tensor([469])
+Y_true: 0
+Y_pred: 1
+No problematic section found
+Evaluating: 100%|##########| 17/17 [06:32<00:00, 11.89s/it]Evaluating: 100%|##########| 17/17 [06:32<00:00, 23.08s/it]
+Parse failures: 11/17 (64.7%) -> IDs: [31, 43, 128, 142, 180, 213, 225, 278, 317, 335, 426]
+Y_true: [0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0]
+Y_pred: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1]
+Resultados Fold 2:
+              precision    recall  f1-score   support
+
+           0       0.54      0.78      0.64         9
+           1       0.50      0.25      0.33         8
+
+    accuracy                           0.53        17
+   macro avg       0.52      0.51      0.48        17
+weighted avg       0.52      0.53      0.49        17
+
+
+==================================================
+Iniciando evaluación Fold 3 de 10
+Tamaño del set de validación: 17
+==================================================
+Evaluating:   0%|          | 0/17 [00:00<?, ?it/s]Stories ids: tensor([18])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+**************************************************
+Warning: Score is None para Story ID 18. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences: No problematic sentences
+## Score: 1...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:   6%|5         | 1/17 [00:17<04:43, 17.74s/it]Stories ids: tensor([27])
+**************************************************
+Warning: Score is None para Story ID 27. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  12%|#1        | 2/17 [01:19<10:56, 43.79s/it]Stories ids: tensor([40])
+**************************************************
+Warning: Score is None para Story ID 40. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  18%|#7        | 3/17 [01:49<08:43, 37.42s/it]Stories ids: tensor([46])
+Y_true: 1
+Y_pred: 1
+No problematic section found
+Evaluating:  24%|##3       | 4/17 [01:59<05:45, 26.60s/it]Stories ids: tensor([121])
+**************************************************
+Warning: Score is None para Story ID 121. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  29%|##9       | 5/17 [02:08<04:00, 20.04s/it]Stories ids: tensor([122])
+**************************************************
+Warning: Score is None para Story ID 122. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  35%|###5      | 6/17 [02:51<05:07, 27.91s/it]Stories ids: tensor([141])
+**************************************************
+Warning: Score is None para Story ID 141. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  41%|####1     | 7/17 [03:22<04:49, 28.92s/it]Stories ids: tensor([235])
+**************************************************
+Warning: Score is None para Story ID 235. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  47%|####7     | 8/17 [03:28<03:16, 21.78s/it]Stories ids: tensor([253])
+**************************************************
+Warning: Score is None para Story ID 253. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  53%|#####2    | 9/17 [03:56<03:08, 23.56s/it]Stories ids: tensor([265])
+**************************************************
+Warning: Score is None para Story ID 265. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  59%|#####8    | 10/17 [04:21<02:48, 24.00s/it]Stories ids: tensor([270])
+Y_true: 1
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences: - "The legal Eagle was not unexpected to rise." !Important: do not repeat the problematic sentence(s)
+	- Reason: The sentence doesn't make sense and is irrelevant to the prev...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  65%|######4   | 11/17 [04:49<02:32, 25.34s/it]Stories ids: tensor([271])
+**************************************************
+Warning: Score is None para Story ID 271. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  71%|#######   | 12/17 [04:52<01:32, 18.41s/it]Stories ids: tensor([357])
+**************************************************
+Warning: Score is None para Story ID 357. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  76%|#######6  | 13/17 [05:02<01:04, 16.04s/it]Stories ids: tensor([373])
+**************************************************
+Warning: Score is None para Story ID 373. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  82%|########2 | 14/17 [05:25<00:54, 18.08s/it]Stories ids: tensor([439])
+**************************************************
+Warning: Score is None para Story ID 439. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences:
+- The sentence 'I like to write stories.' does not make Sense <r11>
+- The relation between 'I used to not do it' and previous one doesn't make sense.<r12>
+- Thes sentence 'Th...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  88%|########8 | 15/17 [05:56<00:43, 21.85s/it]Stories ids: tensor([442])
+**************************************************
+Warning: Score is None para Story ID 442. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  94%|#########4| 16/17 [06:33<00:26, 26.52s/it]Stories ids: tensor([453])
+**************************************************
+Warning: Score is None para Story ID 453. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating: 100%|##########| 17/17 [06:52<00:00, 24.42s/it]Evaluating: 100%|##########| 17/17 [06:52<00:00, 24.29s/it]
+Parse failures: 15/17 (88.2%) -> IDs: [18, 27, 40, 121, 122, 141, 235, 253, 265, 271, 357, 373, 439, 442, 453]
+Y_true: [0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0]
+Y_pred: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Resultados Fold 3:
+              precision    recall  f1-score   support
+
+           0       0.56      1.00      0.72         9
+           1       1.00      0.12      0.22         8
+
+    accuracy                           0.59        17
+   macro avg       0.78      0.56      0.47        17
+weighted avg       0.77      0.59      0.49        17
+
+
+==================================================
+Iniciando evaluación Fold 4 de 10
+Tamaño del set de validación: 17
+==================================================
+Evaluating:   0%|          | 0/17 [00:00<?, ?it/s]Stories ids: tensor([71])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+**************************************************
+Warning: Score is None para Story ID 71. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:   6%|5         | 1/17 [06:15<1:40:11, 375.74s/it]Stories ids: tensor([76])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+**************************************************
+Warning: Score is None para Story ID 76. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  12%|#1        | 2/17 [06:18<39:06, 156.42s/it]  Stories ids: tensor([87])
+**************************************************
+Warning: Score is None para Story ID 87. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2. Problematic Sentences: "- "[Exact problem Sentence]"! Important: Do not repeat the sentences, each sentence must be unique!
+- Reason: [ Brief explanation ]
+- Tags: <<reason tag>>N
+...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  18%|#7        | 3/17 [07:12<25:34, 109.63s/it]Stories ids: tensor([96])
+**************************************************
+Warning: Score is None para Story ID 96. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  24%|##3       | 4/17 [07:21<15:08, 69.90s/it] Stories ids: tensor([103])
+Y_true: 1
+Y_pred: 1
+No problematic section found
+Evaluating:  29%|##9       | 5/17 [07:35<09:54, 49.56s/it]Stories ids: tensor([132])
+**************************************************
+Warning: Score is None para Story ID 132. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  35%|###5      | 6/17 [07:43<06:30, 35.49s/it]Stories ids: tensor([140])
+**************************************************
+Warning: Score is None para Story ID 140. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  41%|####1     | 7/17 [07:48<04:15, 25.58s/it]Stories ids: tensor([177])
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences:
+- 'Some of the older children were so excited to go bowling while others just wanted to play tag.'
+!Important:not relevant to prev data in story
+- 'In between playing games t...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  47%|####7     | 8/17 [08:10<03:41, 24.57s/it]Stories ids: tensor([192])
+**************************************************
+Warning: Score is None para Story ID 192. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  53%|#####2    | 9/17 [08:15<02:26, 18.30s/it]Stories ids: tensor([212])
+Y_true: 0
+Y_pred: 1
+No problematic section found
+Evaluating:  59%|#####8    | 10/17 [08:27<01:55, 16.54s/it]Stories ids: tensor([216])
+**************************************************
+Warning: Score is None para Story ID 216. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  65%|######4   | 11/17 [08:50<01:49, 18.32s/it]Stories ids: tensor([233])
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  71%|#######   | 12/17 [10:56<04:15, 51.11s/it]Stories ids: tensor([337])
+**************************************************
+Warning: Score is None para Story ID 337. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  76%|#######6  | 13/17 [11:32<03:05, 46.50s/it]Stories ids: tensor([369])
+**************************************************
+Warning: Score is None para Story ID 369. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  82%|########2 | 14/17 [11:38<01:43, 34.44s/it]Stories ids: tensor([387])
+Y_true: 0
+Y_pred: 1
+No problematic section found
+Evaluating:  88%|########8 | 15/17 [12:14<01:09, 34.71s/it]Stories ids: tensor([410])
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  94%|#########4| 16/17 [12:28<00:28, 28.71s/it]Stories ids: tensor([467])
+**************************************************
+Warning: Score is None para Story ID 467. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating: 100%|##########| 17/17 [12:36<00:00, 22.37s/it]Evaluating: 100%|##########| 17/17 [12:36<00:00, 44.51s/it]
+Parse failures: 11/17 (64.7%) -> IDs: [71, 76, 87, 96, 132, 140, 192, 216, 337, 369, 467]
+Y_true: [0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1]
+Y_pred: [0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0]
+Resultados Fold 4:
+              precision    recall  f1-score   support
+
+           0       0.50      0.78      0.61         9
+           1       0.33      0.12      0.18         8
+
+    accuracy                           0.47        17
+   macro avg       0.42      0.45      0.40        17
+weighted avg       0.42      0.47      0.41        17
+
+
+==================================================
+Iniciando evaluación Fold 5 de 10
+Tamaño del set de validación: 17
+==================================================
+Evaluating:   0%|          | 0/17 [00:00<?, ?it/s]Stories ids: tensor([63])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+Y_true: 0
+Y_pred: 1
+No problematic section found
+Evaluating:   6%|5         | 1/17 [00:33<08:49, 33.11s/it]Stories ids: tensor([97])
+**************************************************
+Warning: Score is None para Story ID 97. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  12%|#1        | 2/17 [00:49<05:47, 23.20s/it]Stories ids: tensor([116])
+**************************************************
+Warning: Score is None para Story ID 116. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  18%|#7        | 3/17 [00:55<03:32, 15.19s/it]Stories ids: tensor([146])
+Y_true: 1
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences: No problematic sentences from the given list ...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  24%|##3       | 4/17 [06:26<30:21, 140.10s/it]Stories ids: tensor([153])
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  29%|##9       | 5/17 [06:41<18:58, 94.90s/it] Stories ids: tensor([161])
+**************************************************
+Warning: Score is None para Story ID 161. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  35%|###5      | 6/17 [06:51<12:08, 66.20s/it]Stories ids: tensor([239])
+**************************************************
+Warning: Score is None para Story ID 239. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  41%|####1     | 7/17 [12:56<27:17, 163.76s/it]Stories ids: tensor([264])
+**************************************************
+Warning: Score is None para Story ID 264. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  47%|####7     | 8/17 [13:06<17:12, 114.70s/it]Stories ids: tensor([290])
+**************************************************
+Warning: Score is None para Story ID 290. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  53%|#####2    | 9/17 [13:33<11:39, 87.48s/it] Stories ids: tensor([300])
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences: - 'For somereason it couldn't seem to lets its mind and taperd off intotothoughtsalongnightlongassimageslikithisone gradualyfilledupthe spacewithinme.' !Important: donnot rep...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  59%|#####8    | 10/17 [14:57<10:03, 86.19s/it]Stories ids: tensor([313])
+**************************************************
+Warning: Score is None para Story ID 313. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  65%|######4   | 11/17 [15:05<06:13, 62.24s/it]Stories ids: tensor([341])
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  71%|#######   | 12/17 [15:29<04:14, 50.84s/it]Stories ids: tensor([374])
+**************************************************
+Warning: Score is None para Story ID 374. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  76%|#######6  | 13/17 [16:10<03:11, 47.78s/it]Stories ids: tensor([390])
+**************************************************
+Warning: Score is None para Story ID 390. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  82%|########2 | 14/17 [16:15<01:44, 34.77s/it]Stories ids: tensor([394])
+Y_true: 1
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences: No new or irrelevant sentences were found in this response.
+...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  88%|########8 | 15/17 [16:31<00:58, 29.05s/it]Stories ids: tensor([408])
+**************************************************
+Warning: Score is None para Story ID 408. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  94%|#########4| 16/17 [16:51<00:26, 26.35s/it]Stories ids: tensor([468])
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating: 100%|##########| 17/17 [19:05<00:00, 58.81s/it]Evaluating: 100%|##########| 17/17 [19:05<00:00, 67.38s/it]
+Parse failures: 10/17 (58.8%) -> IDs: [97, 116, 161, 239, 264, 290, 313, 374, 390, 408]
+Y_true: [0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1]
+Y_pred: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Resultados Fold 5:
+              precision    recall  f1-score   support
+
+           0       0.44      0.88      0.58         8
+           1       0.00      0.00      0.00         9
+
+    accuracy                           0.41        17
+   macro avg       0.22      0.44      0.29        17
+weighted avg       0.21      0.41      0.27        17
+
+
+==================================================
+Iniciando evaluación Fold 6 de 10
+Tamaño del set de validación: 17
+==================================================
+Evaluating:   0%|          | 0/17 [00:00<?, ?it/s]Stories ids: tensor([32])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+**************************************************
+Warning: Score is None para Story ID 32. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:   6%|5         | 1/17 [00:14<03:44, 14.04s/it]Stories ids: tensor([61])
+**************************************************
+Warning: Score is None para Story ID 61. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  12%|#1        | 2/17 [00:28<03:35, 14.39s/it]Stories ids: tensor([69])
+**************************************************
+Warning: Score is None para Story ID 69. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  18%|#7        | 3/17 [00:32<02:11,  9.42s/it]Stories ids: tensor([101])
+**************************************************
+Warning: Score is None para Story ID 101. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  24%|##3       | 4/17 [00:45<02:24, 11.10s/it]Stories ids: tensor([110])
+**************************************************
+Warning: Score is None para Story ID 110. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  29%|##9       | 5/17 [01:25<04:18, 21.52s/it]Stories ids: tensor([117])
+**************************************************
+Warning: Score is None para Story ID 117. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  35%|###5      | 6/17 [01:41<03:35, 19.61s/it]Stories ids: tensor([159])
+**************************************************
+Warning: Score is None para Story ID 159. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  41%|####1     | 7/17 [01:43<02:17, 13.73s/it]Stories ids: tensor([202])
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences:
+	-No problematic sentences
+...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  47%|####7     | 8/17 [01:48<01:38, 10.96s/it]Stories ids: tensor([217])
+**************************************************
+Warning: Score is None para Story ID 217. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  53%|#####2    | 9/17 [01:52<01:09,  8.74s/it]Stories ids: tensor([227])
+**************************************************
+Warning: Score is None para Story ID 227. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  59%|#####8    | 10/17 [07:57<13:50, 118.65s/it]Stories ids: tensor([254])
+Y_true: 1
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences:
+	- No problematic sentences
+...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  65%|######4   | 11/17 [08:24<09:04, 90.80s/it] Stories ids: tensor([307])
+**************************************************
+Warning: Score is None para Story ID 307. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  71%|#######   | 12/17 [09:29<06:54, 82.85s/it]Stories ids: tensor([320])
+**************************************************
+Warning: Score is None para Story ID 320. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  76%|#######6  | 13/17 [09:34<03:57, 59.27s/it]Stories ids: tensor([322])
+**************************************************
+Warning: Score is None para Story ID 322. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  82%|########2 | 14/17 [10:21<02:46, 55.55s/it]Stories ids: tensor([372])
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences:
+	-The sentence 'So this time around, I thought it would be a good idea to visit Canada!' doesn't make sense <r1>, discusses an entity which has not been introduced yet <r2>, ...
+
+=== USING NEW FORMAT ===
+Found 1 sentence lines
+Sentence 1: 'So this time around, I thought it would be a good idea to visit Canada!'
+Full description: 'doesn't make sense <r1>, discusses an entity which has not been introduced yet <r2>, and relates bad...'
+Tags found: []
+No tags found for this sentence
+--------------------------------------------------
+Evaluating:  88%|########8 | 15/17 [11:00<01:41, 50.56s/it]Stories ids: tensor([447])
+**************************************************
+Warning: Score is None para Story ID 447. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  94%|#########4| 16/17 [11:02<00:35, 35.98s/it]Stories ids: tensor([473])
+**************************************************
+Warning: Score is None para Story ID 473. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating: 100%|##########| 17/17 [11:44<00:00, 37.88s/it]Evaluating: 100%|##########| 17/17 [11:44<00:00, 41.45s/it]
+Parse failures: 14/17 (82.4%) -> IDs: [32, 61, 69, 101, 110, 117, 159, 217, 227, 307, 320, 322, 447, 473]
+Y_true: [1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Y_pred: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Resultados Fold 6:
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1879: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1879: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1879: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+              precision    recall  f1-score   support
+
+           0       0.47      1.00      0.64         8
+           1       0.00      0.00      0.00         9
+
+    accuracy                           0.47        17
+   macro avg       0.24      0.50      0.32        17
+weighted avg       0.22      0.47      0.30        17
+
+
+==================================================
+Iniciando evaluación Fold 7 de 10
+Tamaño del set de validación: 17
+==================================================
+Evaluating:   0%|          | 0/17 [00:00<?, ?it/s]Stories ids: tensor([7])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+**************************************************
+Warning: Score is None para Story ID 7. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:   6%|5         | 1/17 [00:06<01:39,  6.24s/it]Stories ids: tensor([15])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+**************************************************
+Warning: Score is None para Story ID 15. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  12%|#1        | 2/17 [00:09<01:02,  4.20s/it]Stories ids: tensor([21])
+**************************************************
+Warning: Score is None para Story ID 21. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  18%|#7        | 3/17 [00:42<04:07, 17.67s/it]Stories ids: tensor([74])
+**************************************************
+Warning: Score is None para Story ID 74. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  24%|##3       | 4/17 [00:45<02:32, 11.76s/it]Stories ids: tensor([81])
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  29%|##9       | 5/17 [01:00<02:37, 13.09s/it]Stories ids: tensor([84])
+**************************************************
+Warning: Score is None para Story ID 84. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  35%|###5      | 6/17 [01:06<01:55, 10.53s/it]Stories ids: tensor([90])
+**************************************************
+Warning: Score is None para Story ID 90. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  41%|####1     | 7/17 [01:09<01:19,  7.97s/it]Stories ids: tensor([107])
+**************************************************
+Warning: Score is None para Story ID 107. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  47%|####7     | 8/17 [01:30<01:50, 12.31s/it]Stories ids: tensor([195])
+**************************************************
+Warning: Score is None para Story ID 195. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  53%|#####2    | 9/17 [02:17<03:04, 23.01s/it]Stories ids: tensor([222])
+**************************************************
+Warning: Score is None para Story ID 222. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  59%|#####8    | 10/17 [02:56<03:16, 28.13s/it]Stories ids: tensor([231])
+**************************************************
+Warning: Score is None para Story ID 231. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  65%|######4   | 11/17 [03:04<02:11, 21.88s/it]Stories ids: tensor([252])
+**************************************************
+Warning: Score is None para Story ID 252. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  71%|#######   | 12/17 [03:13<01:29, 17.94s/it]Stories ids: tensor([277])
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences: 
+- "The sentence ' Shelook in th eMirror and saw That shes had turned int oac at ! A t fir st , she fre ak edou t b ut then real iz ed Tha t thi s coul d bef un to o.' doesn ...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  76%|#######6  | 13/17 [03:57<01:42, 25.72s/it]Stories ids: tensor([306])
+**************************************************
+Warning: Score is None para Story ID 306. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  82%|########2 | 14/17 [04:02<00:59, 19.67s/it]Stories ids: tensor([384])
+**************************************************
+Warning: Score is None para Story ID 384. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  88%|########8 | 15/17 [04:39<00:49, 24.83s/it]Stories ids: tensor([399])
+**************************************************
+Warning: Score is None para Story ID 399. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences: No problematic sentences.
+Conclusion: The full story is clear and makes sense.
+Score:1...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  94%|#########4| 16/17 [04:44<00:18, 18.94s/it]Stories ids: tensor([420])
+**************************************************
+Warning: Score is None para Story ID 420. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating: 100%|##########| 17/17 [05:03<00:00, 18.94s/it]Evaluating: 100%|##########| 17/17 [05:03<00:00, 17.87s/it]
+Parse failures: 15/17 (88.2%) -> IDs: [7, 15, 21, 74, 84, 90, 107, 195, 222, 231, 252, 306, 384, 399, 420]
+Y_true: [1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0]
+Y_pred: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Resultados Fold 7:
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1879: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1879: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/sklearn/metrics/_classification.py:1879: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+              precision    recall  f1-score   support
+
+           0       0.47      1.00      0.64         8
+           1       0.00      0.00      0.00         9
+
+    accuracy                           0.47        17
+   macro avg       0.24      0.50      0.32        17
+weighted avg       0.22      0.47      0.30        17
+
+
+==================================================
+Iniciando evaluación Fold 8 de 10
+Tamaño del set de validación: 17
+==================================================
+Evaluating:   0%|          | 0/17 [00:00<?, ?it/s]Stories ids: tensor([12])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+**************************************************
+Warning: Score is None para Story ID 12. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+Problematic section found:
+2. Problematic Sentences: No problematic sentence
+...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:   6%|5         | 1/17 [00:14<03:58, 14.89s/it]Stories ids: tensor([52])
+**************************************************
+Warning: Score is None para Story ID 52. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  12%|#1        | 2/17 [00:17<01:54,  7.61s/it]Stories ids: tensor([60])
+**************************************************
+Warning: Score is None para Story ID 60. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  18%|#7        | 3/17 [00:38<03:09, 13.57s/it]Stories ids: tensor([62])
+**************************************************
+Warning: Score is None para Story ID 62. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  24%|##3       | 4/17 [00:45<02:26, 11.25s/it]Stories ids: tensor([145])
+**************************************************
+Warning: Score is None para Story ID 145. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  29%|##9       | 5/17 [00:52<01:54,  9.56s/it]Stories ids: tensor([154])
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  35%|###5      | 6/17 [01:17<02:42, 14.75s/it]Stories ids: tensor([193])
+**************************************************
+Warning: Score is None para Story ID 193. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  41%|####1     | 7/17 [01:31<02:25, 14.58s/it]Stories ids: tensor([234])
+**************************************************
+Warning: Score is None para Story ID 234. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  47%|####7     | 8/17 [01:45<02:10, 14.51s/it]Stories ids: tensor([250])
+**************************************************
+Warning: Score is None para Story ID 250. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  53%|#####2    | 9/17 [04:06<07:10, 53.87s/it]Stories ids: tensor([280])
+**************************************************
+Warning: Score is None para Story ID 280. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  59%|#####8    | 10/17 [04:24<05:00, 42.87s/it]Stories ids: tensor([293])
+Y_true: 0
+Y_pred: 1
+Problematic section found:
+2. Problematic sentences:
+	-The sentence 'UnfortuÂŃnately, when Mr.singh got there , she saw thatsÂŃhe offiÂŃce waÂŃs abandoÂŃned ÂŃjust likÂŃe alwayÂŃs!' doesn't make sense and discussÂŃes entitiÂŃty...
+
+=== USING NEW FORMAT ===
+Found 1 sentence lines
+Sentence 1: 'UnfortuÂŃnately, when Mr.singh got there , she saw thatsÂŃhe offiÂŃce waÂŃs abandoÂŃned ÂŃjust likÂŃe alwayÂŃs!'
+Full description: 'doesn't make sense and discussÂŃes entitiÂŃty whiÂŃch haÂŃs not beeÂŃn introÂŃduced yeÂŃt <r2> and r...'
+Tags found: []
+No tags found for this sentence
+--------------------------------------------------
+Evaluating:  65%|######4   | 11/17 [05:40<05:18, 53.15s/it]Stories ids: tensor([319])
+**************************************************
+Warning: Score is None para Story ID 319. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  71%|#######   | 12/17 [06:08<03:47, 45.52s/it]Stories ids: tensor([401])
+**************************************************
+Warning: Score is None para Story ID 401. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  76%|#######6  | 13/17 [06:21<02:22, 35.51s/it]Stories ids: tensor([416])
+**************************************************
+Warning: Score is None para Story ID 416. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  82%|########2 | 14/17 [06:26<01:18, 26.20s/it]Stories ids: tensor([444])
+**************************************************
+Warning: Score is None para Story ID 444. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences:
+	- "[Exact problematic sentence]"
+		- Reason: [ Brief explanation ]
+			_TAGS: <rX>
+...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  88%|########8 | 15/17 [06:43<00:47, 23.69s/it]Stories ids: tensor([458])
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences:
+	-The sentence 'The snow fell gently to the ground like Esther's droplets of tears.' doesn't make sense <r1>, discusses an entity which has not been introduced yet <r2>, rela...
+
+=== USING NEW FORMAT ===
+Found 1 sentence lines
+Sentence 1: 'The snow fell gently to the ground like Esther'
+Full description: 's droplets of tears.' doesn't make sense <r1>, discusses an entity which has not been introduced yet...'
+Tags found: []
+No tags found for this sentence
+--------------------------------------------------
+Evaluating:  94%|#########4| 16/17 [07:31<00:30, 30.97s/it]Stories ids: tensor([471])
+Y_true: 1
+Y_pred: 1
+No problematic section found
+Evaluating: 100%|##########| 17/17 [08:02<00:00, 31.00s/it]Evaluating: 100%|##########| 17/17 [08:02<00:00, 28.41s/it]
+Parse failures: 13/17 (76.5%) -> IDs: [12, 52, 60, 62, 145, 193, 234, 250, 280, 319, 401, 416, 444]
+Y_true: [1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1]
+Y_pred: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1]
+Resultados Fold 8:
+              precision    recall  f1-score   support
+
+           0       0.47      0.88      0.61         8
+           1       0.50      0.11      0.18         9
+
+    accuracy                           0.47        17
+   macro avg       0.48      0.49      0.40        17
+weighted avg       0.48      0.47      0.38        17
+
+
+==================================================
+Iniciando evaluación Fold 9 de 10
+Tamaño del set de validación: 16
+==================================================
+Evaluating:   0%|          | 0/16 [00:00<?, ?it/s]Stories ids: tensor([2])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+**************************************************
+Warning: Score is None para Story ID 2. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:   6%|6         | 1/16 [00:04<01:05,  4.39s/it]Stories ids: tensor([10])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+**************************************************
+Warning: Score is None para Story ID 10. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  12%|#2        | 2/16 [06:10<50:43, 217.38s/it]Stories ids: tensor([35])
+**************************************************
+Warning: Score is None para Story ID 35. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  19%|#8        | 3/16 [06:31<27:35, 127.34s/it]Stories ids: tensor([99])
+**************************************************
+Warning: Score is None para Story ID 99. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  25%|##5       | 4/16 [06:36<15:48, 79.05s/it] Stories ids: tensor([186])
+Y_true: 0
+Y_pred: 1
+No problematic section found
+Evaluating:  31%|###1      | 5/16 [09:13<19:38, 107.16s/it]Stories ids: tensor([229])
+**************************************************
+Warning: Score is None para Story ID 229. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  38%|###7      | 6/16 [09:15<11:56, 71.64s/it] Stories ids: tensor([260])
+**************************************************
+Warning: Score is None para Story ID 260. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences:
+	2a. Text: "While deep in the forest, they realize that the house is full of old relics and furniture."
+	2b. Important: While deep in th eforest, they reali zethat the hous e...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  44%|####3     | 7/16 [10:11<09:59, 66.59s/it]Stories ids: tensor([263])
+**************************************************
+Warning: Score is None para Story ID 263. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  50%|#####     | 8/16 [10:20<06:25, 48.18s/it]Stories ids: tensor([312])
+**************************************************
+Warning: Score is None para Story ID 312. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  56%|#####6    | 9/16 [10:48<04:52, 41.83s/it]Stories ids: tensor([318])
+**************************************************
+Warning: Score is None para Story ID 318. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  62%|######2   | 10/16 [17:13<14:46, 147.78s/it]Stories ids: tensor([323])
+**************************************************
+Warning: Score is None para Story ID 323. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+Problematic section found:
+2.PROBLEMATIC SENTENCES:"Afte rs olenny conflicts, thewarforpeaceitintheAr ab-iarel conflictfina ll ycamin gtoanend." !Import ante:Do not repeat thes entence, eachs entenc emust be unique!
+-RASONING:T...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  69%|######8   | 11/16 [19:49<12:30, 150.20s/it]Stories ids: tensor([402])
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  75%|#######5  | 12/16 [21:25<08:55, 133.76s/it]Stories ids: tensor([403])
+**************************************************
+Warning: Score is None para Story ID 403. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  81%|########1 | 13/16 [21:41<04:54, 98.25s/it] Stories ids: tensor([430])
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  88%|########7 | 14/16 [22:27<02:44, 82.44s/it]Stories ids: tensor([452])
+**************************************************
+Warning: Score is None para Story ID 452. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  94%|#########3| 15/16 [22:31<00:58, 58.63s/it]Stories ids: tensor([460])
+**************************************************
+Warning: Score is None para Story ID 460. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating: 100%|##########| 16/16 [24:10<00:00, 70.75s/it]Evaluating: 100%|##########| 16/16 [24:10<00:00, 90.64s/it]
+Parse failures: 13/16 (81.2%) -> IDs: [2, 10, 35, 99, 229, 260, 263, 312, 318, 323, 403, 452, 460]
+Y_true: [0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0]
+Y_pred: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Resultados Fold 9:
+              precision    recall  f1-score   support
+
+           0       0.47      0.88      0.61         8
+           1       0.00      0.00      0.00         8
+
+    accuracy                           0.44        16
+   macro avg       0.23      0.44      0.30        16
+weighted avg       0.23      0.44      0.30        16
+
+
+==================================================
+Iniciando evaluación Fold 10 de 10
+Tamaño del set de validación: 16
+==================================================
+Evaluating:   0%|          | 0/16 [00:00<?, ?it/s]Stories ids: tensor([5])
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:281: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/home/isapc/Tesis/unsloth_env/lib/python3.13/site-packages/transformers/modeling_attn_mask_utils.py:254: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+**************************************************
+Warning: Score is None para Story ID 5. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:   6%|6         | 1/16 [00:13<03:17, 13.14s/it]Stories ids: tensor([75])
+**************************************************
+Warning: Score is None para Story ID 75. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences:
+	-The sentence 'Even as a young child, he loved to create things with his hands.' doesn't make sense <r1>, discusses an entity which has not been introduced yet <r2>, the rel...
+
+=== USING NEW FORMAT ===
+Found 1 sentence lines
+Sentence 1: 'Even as a young child, he loved to create things with his hands.'
+Full description: 'doesn't make sense <r1>, discusses an entity which has not been introduced yet <r2>, the relation be...'
+Tags found: []
+No tags found for this sentence
+--------------------------------------------------
+Evaluating:  12%|#2        | 2/16 [00:57<07:23, 31.66s/it]Stories ids: tensor([100])
+Y_true: 0
+Y_pred: 1
+Problematic section found:
+2. Problematic sentences: No problematic sentences
+...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  19%|#8        | 3/16 [01:15<05:31, 25.52s/it]Stories ids: tensor([102])
+**************************************************
+Warning: Score is None para Story ID 102. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  25%|##5       | 4/16 [01:19<03:19, 16.66s/it]Stories ids: tensor([131])
+**************************************************
+Warning: Score is None para Story ID 131. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences: No problematic sentences were found.
+...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  31%|###1      | 5/16 [01:25<02:23, 13.03s/it]Stories ids: tensor([151])
+**************************************************
+Warning: Score is None para Story ID 151. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences:
+	- No problematic sentences
+	...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  38%|###7      | 6/16 [01:41<02:19, 13.91s/it]Stories ids: tensor([173])
+**************************************************
+Warning: Score is None para Story ID 173. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+Problematic section found:
+2. Problematic Sentences:
+   - 'Thish year, shesdecided togiveonetoom!'!Important:The new sentence discusses an entity which has not been introduced yet and contains information inconsistent with pres...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  44%|####3     | 7/16 [02:08<02:43, 18.18s/it]Stories ids: tensor([223])
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  50%|#####     | 8/16 [05:01<08:59, 67.50s/it]Stories ids: tensor([325])
+**************************************************
+Warning: Score is None para Story ID 325. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  56%|#####6    | 9/16 [05:17<05:59, 51.33s/it]Stories ids: tensor([338])
+Y_true: 1
+Y_pred: 1
+No problematic section found
+Evaluating:  62%|######2   | 10/16 [05:40<04:17, 42.84s/it]Stories ids: tensor([377])
+**************************************************
+Warning: Score is None para Story ID 377. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+No problematic section found
+Evaluating:  69%|######8   | 11/16 [06:39<03:58, 47.78s/it]Stories ids: tensor([378])
+**************************************************
+Warning: Score is None para Story ID 378. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating:  75%|#######5  | 12/16 [06:53<02:29, 37.47s/it]Stories ids: tensor([382])
+Y_true: 0
+Y_pred: 1
+No problematic section found
+Evaluating:  81%|########1 | 13/16 [07:24<01:45, 35.31s/it]Stories ids: tensor([392])
+**************************************************
+Warning: Score is None para Story ID 392. No se pudo parsear <score>.
+**************************************************
+Y_true: 1
+Y_pred: 0
+Problematic section found:
+2. Problematic sentences:
+	-The new sentence 'I often find myself looking up at the nights sky in awe, marvelling at the vastness and mystery of it all.' contains information inconsistent with previou...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  88%|########7 | 14/16 [07:56<01:08, 34.36s/it]Stories ids: tensor([393])
+Y_true: 0
+Y_pred: 0
+Problematic section found:
+2.PROBLEMATIC SENTENCES:
+-The first sentence 'Alice fell down...' doesn't relate to anything that came before it and discusses an entirely new topic<r2>. -The second sentence 'She had many adventur es...
+
+=== USING NEW FORMAT ===
+Found 0 sentence lines
+Trying alternative pattern...
+Alternative pattern found 0 sentences
+Evaluating:  94%|#########3| 15/16 [10:37<01:12, 72.55s/it]Stories ids: tensor([450])
+**************************************************
+Warning: Score is None para Story ID 450. No se pudo parsear <score>.
+**************************************************
+Y_true: 0
+Y_pred: 0
+No problematic section found
+Evaluating: 100%|##########| 16/16 [12:58<00:00, 93.25s/it]Evaluating: 100%|##########| 16/16 [12:58<00:00, 48.67s/it]
+Parse failures: 11/16 (68.8%) -> IDs: [5, 75, 102, 131, 151, 173, 325, 377, 378, 392, 450]
+Y_true: [1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0]
+Y_pred: [0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0]
+Resultados Fold 10:
+              precision    recall  f1-score   support
+
+           0       0.46      0.75      0.57         8
+           1       0.33      0.12      0.18         8
+
+    accuracy                           0.44        16
+   macro avg       0.40      0.44      0.38        16
+weighted avg       0.40      0.44      0.38        16
+
+
+Evaluación completada.
+
+==================================================
+RESUMEN CROSS-VALIDATION (10 folds)
+==================================================
+            f1_macro: 0.3830 +/- 0.0698
+            accuracy: 0.4875 +/- 0.0583
+     precision_macro: 0.4302 +/- 0.2044
+        recall_macro: 0.4896 +/- 0.0459
+  parse_failure_rate: 0.7559 +/- 0.1004
+      parse_failures: 127/168 (75.6%) en total
+==================================================
