@@ -1169,16 +1169,29 @@ class LLMModel:
     
 
     def get_output_score(self, text):
-        """Extrae el valor del score de forma robusta e inmune a espacios o texto basura.
+        """Extrae el valor del score de forma robusta.
         Toma la ULTIMA coincidencia para evitar capturar los <score> de ejemplo que
-        puedan venir del prompt si por error se decodifica junto al texto generado."""
-        # Agregamos \s* para tolerar espacios accidentales dentro de las etiquetas
-        matches = re.findall(r"<score>\s*(\d+)\s*</score>", text)
+        puedan venir del prompt. Si no encuentra la etiqueta XML, recurre a formatos
+        alternativos que el modelo suele emitir ('## Score: 1', 'Score: 1', 'Score:1').
+        """
+        # 1) Formato canonico: <score>1</score> (toleramos espacios internos)
+        matches = re.findall(r"<score>\s*([01])\s*</score>", text)
         if matches:
             try:
                 return int(matches[-1])
             except ValueError:
                 return None
+
+        # 2) Fallback: el modelo escribe el score como markdown/texto al final,
+        #    p.ej. '## Score: 1', 'Score: 0', 'Score:1', 'Final score - 1'.
+        #    Tomamos la ultima ocurrencia porque el score final va al cierre.
+        fallback = re.findall(r"(?i)score\s*[:\-]?\s*([01])\b", text)
+        if fallback:
+            try:
+                return int(fallback[-1])
+            except ValueError:
+                return None
+
         return None
 
     def evaluate_lora_mode(self, prompt, custom_dataframe=None, batch_size=8, max_new_tokens=None, temperature=1.0, top_k=50, top_p=1.0, do_sample=False, streaming = False, stop_on_first_input = False):
@@ -1251,8 +1264,11 @@ class LLMModel:
                     **inputs,
                     "max_new_tokens": max_new_tokens if max_new_tokens is not None else 1024,
                     "do_sample": do_sample,
-                    "repetition_penalty": 1.2,
-                    "no_repeat_ngram_size": 3,
+                    # repetition_penalty suave: 1.2 era demasiado agresivo y degradaba
+                    # el formato estructurado. Eliminamos no_repeat_ngram_size porque
+                    # prohibia repetir 3-gramas necesarios de la plantilla (Reason:, Tags:,
+                    # <score>...), empujando al modelo fuera de formato.
+                    "repetition_penalty": 1.1,
                     "pad_token_id": self.tokenizer.eos_token_id,
                 }
                 # Solo pasar parametros de sampling cuando do_sample=True; de lo
